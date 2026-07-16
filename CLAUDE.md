@@ -17,3 +17,8 @@
 - Follow mobile-first design principles.
 - Use accessible HTML tags and ARIA attributes where needed.
 - Write tests for core utilities and complex components.
+
+### Rules Extracted From Workflow Drills
+- Forms use `react-hook-form` + `zod`, never uncontrolled inputs or manual state-based validation.
+- All UI inputs must include ARIA attributes (e.g. `aria-invalid`, `aria-describedby`) correctly mapped to labels and error messages.
+- Every new feature component must be accompanied by a React Testing Library test file verifying success states and validation edge cases.
